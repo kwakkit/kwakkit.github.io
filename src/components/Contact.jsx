@@ -10,10 +10,9 @@ export default function Contact() {
           <br />
           아이디어가 있나요?
         </h2>
-        <p className="contact-sub placeholder-note">이메일은 임시 값이에요 — 실제 주소로 교체해 주세요.</p>
         <div className="contact-actions">
-          <a className="btn btn-primary" href="mailto:hello@kwakkit.dev">
-            hello@kwakkit.dev
+          <a className="btn btn-primary" href="mailto:kwakkit.org@gmail.com">
+            kwakkit.org@gmail.com
           </a>
           <div className="social-links">
             <a

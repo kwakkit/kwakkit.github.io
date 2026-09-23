@@ -32,7 +32,6 @@ public/favicon.svg       # 파비콘
 
 - **자기소개**: 이름, 역할, 소개 문구, 스킬 태그 (`src/components/About.jsx`)
 - **프로젝트 링크**: 각 프로젝트 카드의 "자세히 보기" 링크 (`src/components/Projects.jsx`, `href="#"`)
-- **연락처 이메일**: `hello@kwakkit.dev` → 실제 주소로 교체 (`src/components/Contact.jsx`)
 - **Instagram 링크**: `href="#"` → 실제 계정으로 교체
 - GitHub 링크는 `https://github.com/kwakkit` 로 이미 연결되어 있음
 
