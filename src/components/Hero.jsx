@@ -37,6 +37,11 @@ export default function Hero() {
             <span className="fc-title">하차각</span>
             <span className="fc-sub">놓치지 않는 하차 알림</span>
           </div>
+          <div className="float-card card-sky">
+            <span className="fc-icon">🧺</span>
+            <span className="fc-title">런디캐스트</span>
+            <span className="fc-sub">빨래 마르는 시각 예보</span>
+          </div>
           <div className="float-dot dot-1"></div>
           <div className="float-dot dot-2"></div>
         </Reveal>

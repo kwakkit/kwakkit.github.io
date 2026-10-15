@@ -11,6 +11,7 @@
   --accent-soft: #e6faf3;
   --coral: #ff6b4a;
   --violet: #6c3ae0;
+  --sky: #1f7ae0;
   --shadow-sm: 0 1px 2px rgba(11, 14, 20, 0.06), 0 1px 1px rgba(11, 14, 20, 0.04);
   --shadow-md: 0 16px 40px rgba(11, 14, 20, 0.08);
   --shadow-lg: 0 24px 60px rgba(11, 14, 20, 0.14);
@@ -242,7 +243,7 @@ h2 {
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
 
-.hero-visual { position: relative; min-height: 340px; }
+.hero-visual { position: relative; min-height: 380px; }
 .float-card {
   position: absolute;
   display: flex;
@@ -258,8 +259,9 @@ h2 {
 .fc-icon { font-size: 1.6rem; }
 .fc-title { font-weight: 800; margin-top: 6px; }
 .fc-sub { font-size: 0.85rem; color: var(--ink-soft); }
-.card-coral { top: 6%; left: 4%; border-top: 4px solid var(--coral); transform: rotate(-4deg); }
-.card-violet { bottom: 8%; right: 2%; border-top: 4px solid var(--violet); transform: rotate(3deg); }
+.card-coral { top: 0; left: 2%; border-top: 4px solid var(--coral); transform: rotate(-4deg); }
+.card-sky { top: 33%; right: 0; border-top: 4px solid var(--sky); transform: rotate(3deg); }
+.card-violet { bottom: 0; left: 10%; border-top: 4px solid var(--violet); transform: rotate(-2deg); }
 .float-dot {
   position: absolute;
   border-radius: 999px;
@@ -270,7 +272,7 @@ h2 {
 
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-visual { min-height: 260px; margin-top: 8px; }
+  .hero-visual { min-height: 340px; margin-top: 8px; }
   .float-card { width: 180px; padding: 16px; }
 }
 
