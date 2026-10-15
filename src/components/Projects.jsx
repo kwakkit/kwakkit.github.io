@@ -21,6 +21,16 @@ const PROJECTS = [
     desc: '내릴 역을 놓치지 않도록, 도착 3정거장 전과 도착 순간에 미리 알려주는 지하철 하차 알림 앱.',
     tags: ['Flutter', 'Android'],
   },
+  {
+    accent: '#1F7AE0',
+    accentSoft: '#EAF4FF',
+    icon: '🧺',
+    status: '기획 중',
+    statusClass: 'status-dev',
+    title: '런디캐스트',
+    desc: '지금 널면 몇 시에 마를까? 날씨로 빨래가 마르는 시각을 예측하고, 비 오기 전에 걷으라고 알려주는 빨래 날씨 앱.',
+    tags: ['Flutter', 'Supabase', 'Android'],
+  },
 ];
 
 export default function Projects() {
